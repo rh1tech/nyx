@@ -304,7 +304,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "70cc4d1c-7fb7-49e0-a6b1-401bf48fc165")
+			(uuid "14b1ccb4-c3af-4521-95a6-267f4c9acd19")
 		)
 		(pad "2" smd roundrect
 			(at -0.45 2.7)
@@ -326,7 +326,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "5bed0363-7fdb-45e9-a7b6-b336e7f94031")
+			(uuid "5847b66b-2811-4b21-9b8e-59823cba9319")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3D/Ts-1233_1.5.stp"
@@ -7279,7 +7279,7 @@
 			(pinfunction "1")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "195d5d25-9275-41d4-9833-58dabef48f17")
+			(uuid "464842fe-f67a-4c70-814c-3d257e79e453")
 		)
 		(pad "2" smd roundrect
 			(at -0.45 2.7)
@@ -7301,7 +7301,7 @@
 			(pinfunction "2")
 			(pintype "passive")
 			(thermal_bridge_angle 45)
-			(uuid "d04b39d4-933a-4797-bf7a-b18c4b48eb92")
+			(uuid "d33f0434-c6ed-4010-ac2e-e1422244acad")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/3D/Ts-1233_1.5.stp"
@@ -12195,18 +12195,6 @@
 			)
 		)
 	)
-	(gr_text "24"
-		(at 117.188657 44.75 90)
-		(layer "F.SilkS")
-		(uuid "0d40a3a0-ae20-4162-991c-24d26ded8056")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.075)
-			)
-			(justify left)
-		)
-	)
 	(gr_text "7"
 		(at 117.372974 31.5 0)
 		(layer "F.SilkS")
@@ -12227,18 +12215,6 @@
 				(size 0.6 0.6)
 				(thickness 0.075)
 			)
-		)
-	)
-	(gr_text "23"
-		(at 115.2 44.75 90)
-		(layer "F.SilkS")
-		(uuid "34a33ceb-b40e-483b-9b12-f7d9f9f4f0c3")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.075)
-			)
-			(justify left)
 		)
 	)
 	(gr_text "3"
@@ -12272,18 +12248,6 @@
 				(size 0.6 0.6)
 				(thickness 0.075)
 			)
-		)
-	)
-	(gr_text "25"
-		(at 119.18041 44.75 90)
-		(layer "F.SilkS")
-		(uuid "43c7e4a5-b04e-4797-9212-27e2fc81f9c4")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.075)
-			)
-			(justify left)
 		)
 	)
 	(gr_text "Nyx"
@@ -12382,18 +12346,6 @@
 				(size 0.6 0.6)
 				(thickness 0.075)
 			)
-		)
-	)
-	(gr_text "29"
-		(at 121.2 44.75 90)
-		(layer "F.SilkS")
-		(uuid "5dc52c7b-968f-4e38-920d-a2214cb837ad")
-		(effects
-			(font
-				(size 0.6 0.6)
-				(thickness 0.075)
-			)
-			(justify left)
 		)
 	)
 	(gr_text "GND"
@@ -12694,6 +12646,18 @@
 			(justify left)
 		)
 	)
+	(gr_text "24"
+		(at 117.188657 44.75 270)
+		(layer "B.SilkS")
+		(uuid "0d40a3a0-ae20-4162-991c-24d26ded8056")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.075)
+			)
+			(justify left mirror)
+		)
+	)
 	(gr_text "${VERSION}"
 		(at 93.429 39.042 90)
 		(layer "B.SilkS" knockout)
@@ -12776,6 +12740,42 @@
 		(at 140 40.089098 180)
 		(layer "B.SilkS")
 		(uuid "25771ae4-c466-46f7-a0ba-7192ba2b2ed0")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.075)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "23"
+		(at 115.2 44.75 270)
+		(layer "B.SilkS")
+		(uuid "34a33ceb-b40e-483b-9b12-f7d9f9f4f0c3")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.075)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "25"
+		(at 119.18041 44.75 270)
+		(layer "B.SilkS")
+		(uuid "43c7e4a5-b04e-4797-9212-27e2fc81f9c4")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.075)
+			)
+			(justify left mirror)
+		)
+	)
+	(gr_text "29"
+		(at 121.2 44.75 270)
+		(layer "B.SilkS")
+		(uuid "5dc52c7b-968f-4e38-920d-a2214cb837ad")
 		(effects
 			(font
 				(size 0.6 0.6)
