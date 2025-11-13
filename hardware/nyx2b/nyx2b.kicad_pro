@@ -135,14 +135,14 @@
         "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.3,
-        "min_hole_to_hole": 0.35,
+        "min_hole_to_hole": 0.3,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.35,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
@@ -199,6 +199,7 @@
         0.15,
         0.2,
         0.3,
+        0.4,
         0.5,
         0.6
       ],
@@ -234,7 +235,7 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.7,
+          "diameter": 0.6,
           "drill": 0.3
         }
       ],
@@ -256,7 +257,52 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|1549400|279400|ea330549-340b-4525-8e07-8138e51069f3|f5418f26-df10-4297-8b48-fb2848a653a5|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/84d5e8f7-bda8-4f18-8ff8-1a8273c38b01||",
+        ""
+      ],
+      [
+        "pin_to_pin|749300|1181100|74c4fad0-cb97-45aa-a06b-e484d5d146f0|9879cc49-feb8-45db-9a34-38229431f0d9|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1123950|349250|1c43870d-54e9-4e49-9780-e71c231d0eef|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1187450|349250|999a5c8a-215d-4f21-a4eb-a4fe4ba3f711|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1536700|1828800|56e84f8f-d0b4-46bd-a662-6409baf8be7e|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1562100|1168400|aff9fd82-ac79-46b8-93d8-265dde0063c6|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1727200|838200|bd70f39e-13c6-44f6-92e8-f1f5fe2a2ce0|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1854200|615950|1c43870d-54e9-4e49-9780-e71c231d0eef|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1917700|615950|999a5c8a-215d-4f21-a4eb-a4fe4ba3f711|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|2197100|876300|ff21e78b-46e7-4673-bfa3-cc7eaa5a25bc|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61/234038a0-7aa6-4796-a12c-a2cfd2cf99bc|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|831850|901700|aff9fd82-ac79-46b8-93d8-265dde0063c6|00000000-0000-0000-0000-000000000000|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|/8c0b3d8b-46d3-4173-ab1e-a61765f77d61|",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -482,7 +528,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "nyx2.kicad_pro",
+    "filename": "nyx2b.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -501,8 +547,8 @@
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -518,7 +564,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "GERBERS/",
+      "plot": "GERBERS/1_00",
       "pos_files": "DOCS/2_05/",
       "specctra_dsn": "",
       "step": "../../../../frank-m2-2350A.step",
@@ -707,7 +753,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "./DOCS/1_05",
+    "plot_directory": "./DOCS/1_00",
     "space_save_all_events": true,
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
@@ -725,8 +771,8 @@
       "Root"
     ],
     [
-      "aade15f9-043c-45d2-91a1-54a1b11ea0a5",
-      "RP2350A"
+      "234038a0-7aa6-4796-a12c-a2cfd2cf99bc",
+      "RP2350B"
     ],
     [
       "84d5e8f7-bda8-4f18-8ff8-1a8273c38b01",
@@ -734,7 +780,8 @@
     ]
   ],
   "text_variables": {
-    "NAME": "Nyx 2",
-    "VERSION": "1.05"
+    "DATE": "13.11.2025",
+    "NAME": "Nyx 2B",
+    "VERSION": "1.00"
   }
 }
